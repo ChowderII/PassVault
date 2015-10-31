@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">PassVault</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="activity_login_request_welcome_string">Welcome to PassVault!</string>
+    <string name="activity_login_request_please_login_string">Please enter your PassVault</string>
     <string name="action_settings">Settings</string>
 </resources>
