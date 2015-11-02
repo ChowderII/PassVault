@@ -1,34 +1,26 @@
 package com.developement.skyline.passvault;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
 import android.view.MenuItem;
+import android.widget.GridView;
 
-public class LoginRequest extends AppCompatActivity {
-
-    /*
-    On click method for the button connect, right it just launches a new activity, but it will need
-    to verify the phone's identity with the saved password onboard.
-
-    @ChowderII
-     */
-
-    public void login_request_button_click(View view) {
-    }
+public class MainPasswordHub extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_request_layout);
+        setContentView(R.layout.activity_main_password_hub_layout);
+
+        GridView gridview = (GridView) findViewById(R.id.gridView_button_category_display);
+        gridview.setAdapter(new ImageAdapter(this));
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_login_request, menu);
+        getMenuInflater().inflate(R.menu.menu_main_passwor_hub, menu);
         return true;
     }
 

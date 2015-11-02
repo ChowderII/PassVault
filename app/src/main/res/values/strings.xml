@@ -4,4 +4,7 @@
     <string name="activity_login_request_welcome_string">Welcome to PassVault!</string>
     <string name="activity_login_request_please_login_string">Please enter your PassVault</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_main_passwor_hub">MainPassworHub</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
