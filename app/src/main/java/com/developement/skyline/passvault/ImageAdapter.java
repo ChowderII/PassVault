@@ -52,5 +52,6 @@ public class ImageAdapter extends BaseAdapter {
             like this
             R.drawable.(insert_file_name_here)
              */
+            R.drawable.windows_logo
     };
 }
